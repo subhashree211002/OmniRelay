@@ -8,6 +8,8 @@ Built with Google ADK (google-adk), Google GenAI SDK (Gemini Flash), and the Mod
  * Closed Evaluator-Optimizer Feedback Loop: A built-in policy critic flags capacity and financial violations, automatically self-correcting transfer plans before displaying them side-by-side.
  * In-Dialog Conversational Assistant: Allows warehouse leads and dispatchers to query the plan, negotiate batches, or ask follow-up questions within the audit modal.
  * Zero-Friction GCP Execution: Runs natively within Google Cloud Shell without external infrastructure dependencies.
+
+```
 🔄 Schematic Agentic Workflow
 +-----------------------------------------------------------------------+
 |                1. CLIENT LAYER: GCP Cloud Shell / Streamlit UI        |
@@ -60,6 +62,7 @@ Built with Google ADK (google-adk), Google GenAI SDK (Gemini Flash), and the Mod
 |   -----------------------------------------------------------------   |
 |   [ In-Dialog Chat Assistant: Live Negotiation & Batch Adjustment ]   |
 +-----------------------------------------------------------------------+
+```
 
 🏗️ How the Multi-Agent System Operates
  * Perception & Natural Language Intent: The operator specifies an operational requirement (e.g., handling unexpected stock depletion or planning emergency transfers).
